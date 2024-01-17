@@ -2,7 +2,7 @@
 
 Introducing Weather App: Your iOS & Android app to subscribe to a fetch the current weather. Crafted with Flutter, this app, built on the Bloc architecture, empowers you with to fetch the latest weather and see all details on the go.
 
-## Demo Video
+## App Image
 <img width="469" alt="Screenshot 2024-01-17 at 4 58 18 PM" src="https://github.com/abdullahihsan3/WeatherApp-Cubit/assets/109294768/d3a7c68e-e528-4f89-bfca-be1d82590aeb">
 
 
