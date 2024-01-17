@@ -1,16 +1,54 @@
-# weather_app_bloc
+# WeatherApp-Cubit
 
-A new Flutter project.
+Introducing Weather App: Your iOS & Android app to subscribe to a fetch the current weather. Crafted with Flutter, this app, built on the Bloc architecture, empowers you with to fetch the latest weather and see all details on the go.
 
-## Getting Started
+## Demo Video
+<img width="469" alt="Screenshot 2024-01-17 at 4 58 18 PM" src="https://github.com/abdullahihsan3/WeatherApp-Cubit/assets/109294768/d3a7c68e-e528-4f89-bfca-be1d82590aeb">
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
+Flutter & Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Architecture
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app is built using the Bloc architecture pattern. Here's a brief overview of the different layers:
+
+- Model: The data layer that represents the app's data and business logic.
+- View: The UI layer that displays the data to the user and handles user input. In this app, the views are implemented using Bloc Builder and Consumer patterns.
+- Cubit: The cubit layer manages the methods and initial data handling. Additionally, the cubit handles the various state methods that are to be called.
+- State: The state file manages the different states of the application which include but not limited to initial, loading, success or failure. These can be defined as enums to handle the state.
+- Repository: The repository contains the methods that interact with the different network services. The repository contains various methods which are defined according to the cubit.
+
+
+## Usage
+
+1. Clone the repository locally or use the template for your own projects:
+
+2. Install dependencies using the following command:
+
+```bash
+flutter pub get
+```
+3. Run the app on your emulator of choice (simulator in case of iOS):
+
+```
+flutter run
+```
+
+## Folder Structure
+
+```
+lib/
+|- bloc/
+|- models/
+|- repository/
+|- enums/
+|- screens/
+|- widgets/
+|- utils
+|- main.dart
+```
+
+
+
+
